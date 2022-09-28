@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<main>
+    <img src="Img/palabra-clave.png" alt="Logo de alura con la inicial da letra a" class="imagen">
+    <section class="entrada-box">
+        <textarea class="input-texto" cols="40" rows="6" placeholder="Ingrese el texto aqui"></textarea>
+        <div class="botones">
+            <h6 class="informacion"><img src="Img/exclamacion.png" alt="exclamacion" class="exclamacion"> Solo letras minúsculas y sin acentos.</h6>
+            <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+            <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+        </div>
+    </section>        
+    <section class="mensaje-box">
+        <div id="imagen-inicio" class="imagen-inicio"> 
+            <img src="Img/buscar.png" alt="imagen de buscar" class="imagen-buscar">
+            <p class="imagen-inicio-p1">Ningún mensaje fue encontrado</p>
+            <p class="imagen-inicio-p2">Ingresa el texto que desees encriptar o desencriptar.</p>
+        </div>
+        <textarea class="mensaje" cols="18" rows="8"></textarea>
+        <button class="copiar" onclick="copiar()" id="copiar">Copiar</button>
+
+    </section>        
+</main>
+<footer>
+    <p class="desarrollado"> &#169;Desarrollado por Jonathan Campos</p>
+    <div>
+        <a href="https://github.com/JonathanC28"><img src="Img/github.png" alt="Logo de github" class="logo-github"></a>
+        <a href="https://www.linkedin.com/in/jonathan-campos-78594724a/"><img src="Img/linkedin.png" alt="Logo de Linkedin" class="logo-linkedin"></a>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
